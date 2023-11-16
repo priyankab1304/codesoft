@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <style>
+    /* Basic styles for the portfolio */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: pink;
+      color: #333;
+    }
+
+    header {
+      background-color: white;
+      color:black;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    .about-section {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .about-section img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .skills-section {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .skills-section ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .skills-section li {
+      background-color: blanchedalmond;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+    }
+
+    .projects-section {
+      margin-top: 50px;
+    }
+
+    .projects-section .project {
+      border: 1px solid black;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+
+    .contact-section {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Priyanka</h1>
+    <p>Web Developer </p>
+  </header>
+
+  <div class="container">
+    <section class="about-section">
+      <h2>About Me</h2>
+      <img src="priya.jpg" alt="Your Name">
+      <p>I am a passionate web developer with expertise in HTML, CSS, and JavaScript. I have experience in creating responsive and user-friendly websites.</p>
+    </section>
+
+    <section class="skills-section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+        <li>UI/UX Design</li>
+        <!-- Add more skills as needed -->
+      </ul>
+    </section>
+
+    <section class="projects-section">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>   
+        <p>Calculator</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Landing Page</p>
+      </div>
+      <!-- Add more projects with titles, images, and descriptions -->
+    </section>
+
+    <section class="contact-section">
+      <h2>Contact Me</h2>
+      <p>Email: 1304priyankaa@gmail.com</p>
+      <p>Phone: 123-456-7890</p>
+    </section>
+  </div>
+  <footer>
+    &copy; 2023 Priyanka Portfolio
+  </footer>
+
+</body>
+</html>
